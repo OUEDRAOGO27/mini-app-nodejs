@@ -1,0 +1,21 @@
+{
+    "name": "user_authentification",
+    "version": "1.0.0",
+    "description": "authentification des utilisateurs",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "startmysql": "nodemon config_connection.js"
+    },
+    "author": "OUEDRAOGO",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "express": "^4.18.1",
+        "fs": "^0.0.1-security",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
